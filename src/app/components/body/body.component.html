@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col">
+        <h1>*ngIF</h1>
+        <div class="card w-75" *ngIf="show">
+            <div class="card-body">
+                <h5 class="card-title">{{course.professor}}</h5>
+                <p class="card-text">{{course.name}}</p>
+            </div>
+        </div>
+        <a (click)="show = !show" href=" # " class="btn btn-primary ">Button</a>
+    </div>
+    <div class="col ">
+        <h1>*ngFor</h1>
+        <ul class="list-group ">
+            <li *ngFor="let student of students; let i=index" lass="list-group-item ">
+                {{i+1}}-{{student}}
+            </li>
+
+        </ul>
+    </div>
+</div>

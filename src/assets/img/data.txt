@@ -1,0 +1,44 @@
+[
+	{
+		name:"Portátil Huawei ",
+		description:"Matebook 13",
+		img:"./assets/img/huawei.JPG",
+		price:"3379900"
+	},
+	{
+		name:"Portátil Asus ",
+		description:"X409ma-bv155t",
+		img:"./assets/img/asus.JPG",
+		price:"1219900"
+	},
+	{
+		name:"Portatil Dell",
+		description:"Inspiron 3493",
+		img:"./assets/img/dell.JPG",
+		price:"1899900"
+	},
+	{
+		name:"Portátil Hp",
+		description:"255 G7 Amd Athlon",
+		img:"./assets/img/hp.JPG",
+		price:"1339900"
+	},
+	{	
+		name:"Portátil Acer",
+		description:"34fr",
+		img:"./assets/img/acer.JPG",
+		price:"1759900"
+	},
+	{
+		name:"Lenovo Ideapad",
+		description:"L340 I5 9300h",
+		img:"./assets/img/lenovo.JPG",
+		price:"3299999"
+	},
+	{
+		name:"Macbook",
+		description:"Air 2020",
+		img:"./assets/img/makbuk.JPG",
+		price:"4394000"
+	}
+]

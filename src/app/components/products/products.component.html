@@ -1,0 +1,13 @@
+<p></p>
+<p></p>
+<div class="card-columns">
+    <div class="card" style="width: 18rem;" *ngFor="let product of products;let i = index">
+        <img [src]="product.img" class="card-img-top" [alt]="product.name">
+        <div class="card-body">
+            <h5 class="card-title">{{ product.name }}</h5>
+            <p class="card-text">{{ product.price }}</p>
+            <button (click)="viewProduct(i)" type="button" class="btn btn-outline-primary btn-block">Ver Más</button>
+            <!--<a [routerLink]="['/product', i]" type="buttom" class="btn btn-outline-primary btn-block">Ver más</a>-->
+        </div>
+    </div>
+</div>
